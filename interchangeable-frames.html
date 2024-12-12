@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore customizable interchangeable frames for unique styles and occasions. Swap designs effortlessly to match your mood.">
+    <meta name="keywords" content="interchangeable frames, customizable eyewear, stylish glasses, frames for every occasion">
+    <title>Interchangeable Frames | Customize Your Look</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="./Image/logo.jpg"alt="Logo">
+        <h1>Express Yourself with Interchangeable Frames</h1>
+        <h2>Transform Your Eyewear, Match Your Mood</h2>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="interchangeable-frames.html">Interchangeable Frames</a>
+        <a href="blue-light-glasses.html">Blue Light Glasses</a>
+        <a href="sustainable-eyewear.html">Sustainable Eyewear</a>
+        <a href="kids-glasses.html">Kids Glasses</a>
+    </nav>
+    <section class="content img-sec">
+        <div class="text">
+            <h2>Discover the Magic of Interchangeable Frames</h2>
+            <p>
+                Redefine your eyewear experience with Pair Eyewear's interchangeable frames. Our innovative design allows you to swap out top frames effortlessly, giving you endless possibilities to match your glasses with your outfit, mood, or the occasion.
+            </p>
+            <p>
+                Choose from vibrant patterns, chic minimalist styles, or playful themes. Whether you're heading to work or enjoying a casual day out, Pair Eyewear lets you express your personality with ease.
+            </p>
+        </div>        
+            <img src="./Image/Designer (4).png" alt="Interchangeable glasses showcasing different styles">
+          </section>
+    
+    <section class="details">
+        <h2>Swap Frames for a New Look Every Day</h2>
+        <p>
+            Pair Eyewear's interchangeable frames provide a simple way to transform your glasses into an accessory that adapts to your ever-changing style. The snap-on feature ensures a quick and seamless transition between frames, allowing you to create a fresh look in seconds.
+        </p>
+        <p>
+            Whether you need a sleek frame for a business meeting or a vibrant design for a party, our interchangeable frames ensure you always look your best. The versatility of these frames makes them a staple in any eyewear collection.
+        </p>
+    </section>
+    <section class="quality">
+        <h2>Quality and Style in Every Pair</h2>
+        <p>
+            At Pair Eyewear, quality meets innovation. Our frames are crafted from durable materials designed to withstand daily wear and tear. From work to play, these frames maintain their charm and structural integrity.
+        </p>
+        <p>
+            Each frame is lightweight and comfortable, ensuring all-day wearability. Plus, the scratch-resistant finish keeps them looking fresh and vibrant, no matter how often you switch styles.
+        </p>
+    </section>
+    <section class="affordability">
+        <h2>An Affordable Way to Diversify Your Look</h2>
+        <p>
+            With Pair Eyewear, you don’t need to invest in multiple pairs of glasses to enjoy a variety of styles. Our interchangeable frames are cost-effective, allowing you to expand your eyewear collection without breaking the bank.
+        </p>
+        <p>
+            Choose a single base frame and accessorize it with a range of top frames to suit every mood and occasion. This modular approach to eyewear saves you money while providing unparalleled versatility.
+        </p>
+    </section>
+    <section class="environment">
+        <h2>Sustainable Eyewear for a Better Planet</h2>
+        <p>
+            Pair Eyewear's commitment to sustainability means reducing waste and promoting eco-friendly practices. By using one base frame and multiple top frames, you’re making a positive impact on the environment while enjoying stylish eyewear.
+        </p>
+        <p>
+            Our frames are built to last, minimizing the need for frequent replacements. This sustainable approach ensures that you can look good and feel good about your choices.
+        </p>
+    </section>
+    <section class="get-started">
+        <h2>Get Started with Pair Eyewear Today</h2>
+        <p>
+            Ready to transform your eyewear experience? Explore Pair Eyewear's collection of interchangeable frames and discover how easy it is to customize your look. With options for every style and occasion, our frames are perfect for expressing your unique personality.
+        </p>
+        <p>
+            Don't settle for one pair of glasses when you can have an entire collection. Shop now and experience the freedom of Pair Eyewear's innovative designs.
+        </p>
+    </section>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const gridItems = document.querySelectorAll(".grid-item");
+    
+            const handleScroll = () => {
+                gridItems.forEach((item) => {
+                    const rect = item.getBoundingClientRect();
+                    if (rect.top < window.innerHeight - 50) {
+                        item.classList.add("active");
+                    }
+                });
+            };
+    
+            
+            window.addEventListener("scroll", handleScroll);
+    
+            
+            handleScroll();
+        });
+    </script>
+    <section class="grid-container">
+        <div class="grid-item">
+            <img src="./Image/Int1.jpg" alt="Modern interchangeable frame collection">
+            <h3>Modern Classics</h3>
+            <p>Timeless designs for a professional and polished look.</p>
+        </div>
+        <div class="grid-item">
+            <img src="./Image/Int2.jpg" alt="Playful interchangeable frame collection">
+            <h3>Playful Patterns</h3>
+            <p>Express your creativity with bold colors and unique prints.</p>
+        </div>
+        <div class="grid-item">
+            <img src="./Image/int3.jpg" alt="Seasonal interchangeable frame collection">
+            <h3>Seasonal Styles</h3>
+            <p>Celebrate every season with limited-edition collections.</p>
+        </div>
+    </section>
+    <div>
+        <button class="next-products-btn">
+        <a href="blue-light-glasses.html" >
+            Next Products
+        </a>
+    </button>
+    </div>
+    
+    <footer>
+        <div class="footer-container">
+           
+            <div class="footer-section logo-description">
+                <a href="index.html">
+                    <img src="./Image/logo.jpg" alt="Logo">
+                </a>
+                <p>Explore customizable eyewear for all styles and ages. Pair Eyewear brings you durable, stylish, and sustainable glasses with interchangeable frames.</p>
+            </div>
+    
+          
+            <div class="footer-section quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="interchangeable-frames.html">Interchangeable Frames</a></li>
+                    <li><a href="blue-light-glasses.html">Blue Light Glasses</a></li>
+                    <li><a href="sustainable-eyewear.html">Sustainable Eyewear</a></li>
+                    <li><a href="kids-glasses.html">Kids Glasses</a></li>
+                </ul>
+            </div>
+    
+            
+            <div class="footer-section contact-info">
+                <h3>Contact Us</h3>
+                <p>Email: <a href="mailto:support@paireyewear.com">goodcare@paireyewear.com</a></p>
+                <p>Phone: <a href="tel:+18001234567">+1 (090) 090-5758</a></p>
+                <div class="social-media">
+                    <a href="https://facebook.com/paireyewear" target="_blank">
+                        <img src="./Image/facebook.jpg" alt="Facebook Icon" >
+                    </a>
+                    <a href="https://instagram.com/paireyewear" target="_blank">
+                        <img src="./Image/Instagram.jpg" alt="Instagram Icon" >
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p> Created by Tirth Patel &copy; 8970261</p>
+        </div>
+    </footer>
+</body>
+
+</html>
